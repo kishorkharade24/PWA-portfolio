@@ -1,8 +1,13 @@
 {
-  "title": "Freelancer",
-  "name": "startbootstrap-freelancer",
+  "title": "PWA Test App",
+  "name": "pwa-test",
   "version": "4.0.0-beta.2",
-  "description": "A freelancer portfolio HTML theme for Bootstrap.",
+  "description": "A portfolio HTML.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
   "keywords": [
     "css",
     "sass",
@@ -11,22 +16,15 @@
     "theme",
     "template"
   ],
-  "homepage": "https://startbootstrap.com/template-overviews/freelancer",
-  "bugs": {
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer/issues",
-    "email": "feedback@startbootstrap.com"
-  },
   "license": "MIT",
-  "author": "Start Bootstrap",
-  "contributors": [
-    "David Miller (http://davidmiller.io/)"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/BlackrockDigital/startbootstrap-freelancer.git"
+  "author": "Kishor",
+  "engines": {
+    "node": "~6.11.2",
+    "npm": "~3.10.10"
   },
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
+    "express": "^4.16.2",
     "font-awesome": "4.7.0",
     "jquery": "^3.2.1",
     "jquery.easing": "^1.4.1"
